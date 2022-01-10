@@ -18,7 +18,7 @@ int main()
     ADDRINFO *addrResult = NULL;
     SOCKET ConnectSocket = INVALID_SOCKET;
     
-    const char* sendbuffer = "Hello from client";
+    const char* sendbuffer = "Hello from client.I am server.";
     char recvBuffer[512];
     int result;
     
